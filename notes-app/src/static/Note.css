@@ -1,0 +1,53 @@
+.nt-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 300px;
+  min-width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.text{
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.nt-card-text{
+  font-weight: normal;
+}
+
+.border-bottom{
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
+.nt-card-header{
+  display: flex;
+  flex-direction: row;
+}
+
+.nt-card-close-btn{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.nt-card-close-btn:hover{
+  transition: all 0.3s ease;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nt-card-footer-btn{
+  display: flex;
+  justify-content: space-between;
+}
